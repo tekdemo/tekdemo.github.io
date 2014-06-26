@@ -1,5 +1,3 @@
----
----
 <!DOCTYPE html>
 <html>
   <head>
@@ -33,19 +31,20 @@
 
 <p>Since I eventually have to start documenting things, I figured this might be a good way to do it. So, here goes! </p>
 
-<p>Currently my only really active project is my arduino-powered servo controller. The current "stable" data for this is located at <a href="tekdemo.github.com/project-sir-vo">tekdemo.github.com/project-sir-vo</a> , which will at some point be located at  <a href="project-sir-vo">it's project page</a>.</p>
+<p>Currently my only really active project is my arduino-powered servo controller. The current "stable" data for this is located at <a href="tekdemo.github.com/project-sir-vo">tekdemo.github.com/project-sir-vo</a> , and I'll keep the log in <a href="projects">projects</a>.</p>
       </section>
     </div>
 
-    <!-- This loops through the posts, in theory -->
-<ul>
-  {% for post in site.posts %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-      {{ post.excerpt }}
-    </li>
-  {% endfor %}
-</ul>
+    <!-- This loops through the paginated posts -->
+{% for post in paginator.posts %}
+  <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+  <p class="author">
+    <span class="date">{{ post.date }}</span>
+  </p>
+  <div class="content">
+    {{ post.content }}
+  </div>
+{% endfor %}
 
     
   </body>

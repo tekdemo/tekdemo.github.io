@@ -1,0 +1,4 @@
+markdown: kramdown
+paginate: 5
+timezone: America/Los_Angeles
+
