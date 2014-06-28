@@ -1,7 +1,12 @@
 ---
 layout:default
 ---
-<div id="post">{{ content }}</div>
+<div id="post">
+<div class='post'>
+  <h1><a href='{{page.url}}'>{{page.title}}</a></h1>
+  <div class='date'>posted {{page.date | date_to_string}}</div>
+  <div class='body'>{{ content }}</div>
+</div></div>
 
 <div id="related">
   <h2>Related Posts</h2>

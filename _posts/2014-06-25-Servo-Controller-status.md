@@ -1,18 +1,11 @@
 ---
 layout:post
 categories: [servo, motor, project log]
+title:Servo Controller Status Update
 ---
 
-Servo Controller Status Update
-======
 
 Testing, testing, etc. 
 
 
-{% highlight c %}
 
-main(){
-	maths();
-}
-
-{% endhighlight %}
