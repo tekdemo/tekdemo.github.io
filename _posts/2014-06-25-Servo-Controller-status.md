@@ -1,11 +1,5 @@
 ---
-layout:post
-categories: [servo, motor, project log]
-title:Servo Controller Status Update
+layout: post
 ---
-
-
 Testing, testing, etc. 
-
-
 

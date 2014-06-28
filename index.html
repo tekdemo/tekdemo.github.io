@@ -1,15 +1,16 @@
 ---
-layout:default
+layout: default
 ---
-<h3>
+<section id=main_content>
+<h1>
 <a name="welcome-to-my-project-log" class="anchor" href="#welcome-to-my-project-log"><span class="octicon octicon-link"></span></a>Welcome to My project log!</h3>
 
 <p>Since I eventually have to start documenting things, I figured this might be a good way to do it. So, here goes! </p>
 
 <p>Currently my only really active project is my arduino-powered servo controller. The current "stable" data for this is located at <a href="tekdemo.github.com/project-sir-vo">tekdemo.github.com/project-sir-vo</a> , which will at some point be located at  <a href="project-sir-vo">it's project page</a>.</p>
-      
+</section>
 
-      
+<section>
 <!-- This loops through the paginated posts -->
 {% for post in site.posts %}
 <section class='post'>
@@ -20,3 +21,4 @@ layout:default
 	<div class="content">{{ post.exerpt }}</div>
 </section>
 {% endfor %}
+</section>
