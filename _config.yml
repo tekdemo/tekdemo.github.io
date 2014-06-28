@@ -3,4 +3,4 @@ paginate: 5
 timezone: 'America/Los_Angeles'
 highlighter: 'pygments'
 safe: true
-baseurl: "http://tekdemo.github.io"
+baseurl: "https://tekdemo.github.io"
