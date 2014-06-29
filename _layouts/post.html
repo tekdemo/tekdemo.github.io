@@ -20,3 +20,21 @@ layout: default
 <div>
 <h1><a href="{{site.baseurl}}">&lt;&lt; back &#8962;</a></h1>
 </div>
+
+<script>
+//Wrap all the images and display the caption
+$(document).ready(function(){
+//wrap the images and create a caption box
+//$('.post img').wrap('<span></span>').after($('<div class="caption"><div>'))
+
+//Find each image, create a caption, and fill it with the text
+$('.post img').each(function(){
+
+$(this).wrap('<div class="image"></div>').after(
+	$('<div class="caption">'+$(this).attr("alt")+'</div>')
+)
+
+})
+
+})
+</script>

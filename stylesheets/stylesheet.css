@@ -259,6 +259,17 @@ hr {
   background: url("/images/twitter.png") 0 0 no-repeat;
 }
 
+.post .image {
+	background-color:black ;
+	text-align:center;
+	width:auto;
+}
+.post .caption {
+	width:100%;
+	color: #b5e853;
+
+}
+
 /* Links
    a, a:hover, a:visited
 */
