@@ -262,18 +262,23 @@ hr {
 .post .image{
 	width:auto;
 	text-align:center;
+	opacity:40%;
 }
 .post .image span{
-	background:black ;
-	dtext-align:center;
+	padding: .5em;
+	background:rgba(0,0,0,.5) ;
+	text-align:center;
 	width:auto;
 	display:inline-block;
+	border-radius:1em;
+}
+.post .image img {
+	border-radius:.5em;
 }
 .post .caption {
 	color: #b5e853;
-	background:black;
-	display:inine;
-	width:100%;overflow:auto
+	display:inline;
+	border-radius:.5em
 }
 
 /* Links
