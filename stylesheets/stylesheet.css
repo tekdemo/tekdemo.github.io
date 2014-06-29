@@ -259,15 +259,21 @@ hr {
   background: url("/images/twitter.png") 0 0 no-repeat;
 }
 
-.post .image {
-	background-color:black ;
-	text-align:center;
+.post .image{
 	width:auto;
+	text-align:center;
+}
+.post .image span{
+	background:black ;
+	dtext-align:center;
+	width:auto;
+	display:inline-block;
 }
 .post .caption {
-	width:100%;
 	color: #b5e853;
-
+	background:black;
+	display:inine;
+	width:100%;overflow:auto
 }
 
 /* Links

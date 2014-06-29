@@ -24,16 +24,16 @@ layout: default
 <script>
 //Wrap all the images and display the caption
 $(document).ready(function(){
-//wrap the images and create a caption box
-//$('.post img').wrap('<span></span>').after($('<div class="caption"><div>'))
 
 //Find each image, create a caption, and fill it with the text
 $('.post img').each(function(){
 
-$(this).wrap('<div class="image"></div>').after(
-	$('<div class="caption">'+$(this).attr("alt")+'</div>')
-)
-
+	$(this).wrap(function(){
+	return "<div class='image'><span>"+
+	"<div>"+$(this).html()+"</div>"+
+	"<div class='caption'>"+$(this).attr('alt')+"</div>"+
+	"</span></div>"
+	})
 })
 
 })
