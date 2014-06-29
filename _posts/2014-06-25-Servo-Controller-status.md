@@ -2,7 +2,8 @@
 layout: post
 tag: [servo, as5050]
 ---
-OK! Here's the back story for developing my [servo controller project][sirvo] is. 
+OK! Here's the back story amd statis for developing my [servo controller project][sirvo]. 
+
 ![Revision 0, still in use on my breadboard.][vbreadboard]
 
 

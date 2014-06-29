@@ -16,9 +16,10 @@ layout: default
 <section class='post'>
 	<h1><a href="{{site.baseurl}}{{ post.url }}" class="anchor">{{ post.title }}</a></h1>
 	<p class="author">
-	<span class="date">{{ post.date }}</span>
+		<span class="date">{{ post.date | date_to_string}}</span>
 	</p>
-	<div class="content">{{ post.exerpt }}</div>
+	<div class="content excerpt">{{ post.excerpt }}</div>
+	<p class='ellipsis'><a  href="{{site.baseurl}}{{ post.url }}" title="Keep on reading!"> ...</a></p>
 </section>
 {% endfor %}
 </section>

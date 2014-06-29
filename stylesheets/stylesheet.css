@@ -21,6 +21,7 @@ section {
   margin: 0 0 20px 0;
 }
 
+
 h1, h2, h3, h4, h5, h6 {
   margin: 0 0 20px;
 }
@@ -188,6 +189,35 @@ hr {
   color: #b5e853;
 }
 
+
+/*
+ * Add things to the posts
+ */
+
+.post {
+  padding:1em;
+  border:#b5e853 1px dashed;
+  border-radius:1em;
+  background:#1C250D;
+} 
+.post h1 {
+	margin-bottom:0;
+}
+.post .author,
+.post .date {
+	margin-top:0;
+	margin-bottom:0;
+}
+.ellipsis{
+	padding-top:0;
+	margin-top:0;	
+}
+.ellipsis a{
+	color: #b5e853;
+	text-decoration:none;
+}
+
+
 /* Buttons
 */
 
@@ -237,6 +267,7 @@ a {
   color: #63c0f5;
   text-shadow: 0 0 5px rgba(104, 182, 255, 0.5);
 }
+
 
 /* Clearfix */
 
