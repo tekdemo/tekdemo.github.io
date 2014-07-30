@@ -7,9 +7,9 @@ For installation of your own page, visit the Github Pages help
 https://help.github.com/articles/using-jekyll-with-pages#installing-jekyll
 
 License
-The following directories and their contents are Copyright Dan Sheadel. You may not reuse anything therein without my permission:
+The following directories and their contents are copyrighted to myself. Those should not be used without permission. 
 
 _posts/
 images/
 
-All other directories and files are MIT Licensed. 
+All other directories and files are MIT Licensed, because open source is spectactular.
