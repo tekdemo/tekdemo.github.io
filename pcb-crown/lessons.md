@@ -40,7 +40,7 @@ This is something I vaguely anticipated, then promptly thought I had fixed when 
 If I were to do another design like this, I would include a special plate for the back that handles all the line termination, and jumpers everything together. Attempting to design in a "bypass" mode in my case caused erratic behaviour due to the one forgotten line. 
 
 ### Put all connected parts on the same design
-Since I use Eagle Light for design, this limitation made the design _much_ harder to sort out. If at all possible, make sure your design tool will permit you to work with the full size of your project. This might, in fact, be a good time to switch to [KiCAD](http//kicad.info). 
+Since I use Eagle Light for design, this limitation made the design _much_ harder to sort out. If at all possible, make sure your design tool will permit you to work with the full size of your project. This might, in fact, be a good time to switch to [KiCAD](http://kicad.info). 
 
 ### Hobby Iron vs Soldering Iron: Not the same. 
 Since the plan was to assemble this in a hotel room, and I didn't want to risk my good soldering iron going through a flight, I borrowed my roommate's that he had lying around. I figured a firestarter would do the trick right? *Nope*. This was an actual woodburner, complete with actual brass tips. Turns out, those will happily dissolve into solder when assembling circuit boards. This particular project had enough solder joints that it converted 2 pointed tips into tiny nubs before we got everything attached.
