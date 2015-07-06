@@ -28,8 +28,11 @@ Best in generation   8 :he,.?!*_,.?!*_-',.v?!*_-'ke,.?!*_-' scoring -2
 Best in generation   9 :he,.?!*_,.?!*_-',.v?!*_-'ke,.?!*_-'t scoring 1
 Best in generation  10 :he,.?!*_,.?!*_-',.v?!*_-'ke,.?!*_-'tc scoring 3
 Best in generation  11 :he,.?!*_,.?!*_-',.v?!*_-'ke,.?!*_-'tc9 scoring 5
+...
 ```
+
 Even more amazingly, with a reasonable population size, a common case was that it would often insert that string so that the `!` actually was in the right place. Due to being a point higher than being _out_ of place, when you get to the end, the sequence is actually totally accurate, _despite_ the code not being able to actually select a `!` by itself.
+
 ```
 Best in generation 185 :hello world! you will be deconstructed scoring 38
 ```
